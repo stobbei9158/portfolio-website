@@ -107,6 +107,8 @@ button:hover{
     width:300px;
     margin:50px;
     display:none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 .aboutme{
     border-width: 2px;
@@ -135,15 +137,20 @@ button:hover{
 }
 .skills-body{
     display:flex;
-    margin-left:7rem;
-    margin-right:7rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
     justify-content: space-between;
+    width:40rem;
 }
 .skills-body p{
     font-size: x-large;
 }
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .education{
-    display: flex;
     margin:20px;
     margin-left:7rem;
     margin-right:7rem;
@@ -153,7 +160,6 @@ button:hover{
     text-align: center;
 }
 .rewards{
-    display: flex;
     margin:20px;
     margin-left:7rem;
     margin-right:7rem;
@@ -199,6 +205,9 @@ img.linkedinlogo{
     align-items: center;
     margin:30px;
 }
+.contact-body{
+    margin-bottom:80px;
+}
 p.linkedin{
     margin:30px;
 }
@@ -225,7 +234,7 @@ footer {
     width: 100%;
     text-align: center;
  }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .profile-picture{
         display:none;
     }
@@ -242,6 +251,11 @@ footer {
     .aboutme{
         font-size:x-large;
         max-width:400px;
+    }
+    .wrapper{
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     .resume-description{
         width:300px;
