@@ -284,3 +284,16 @@ footer {
         font-size:24px;
     }
 }
+@media screen and (max-width: 800px) {
+    .links li{
+        padding:10px;
+        display:block;
+    }
+    .skills-body{
+        display:block;
+        text-align:center;
+    }
+    .skills-body p{
+        padding:5px;
+    }
+}
