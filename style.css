@@ -53,6 +53,10 @@ button:hover{
     background-color: rgba(0,136,169,0.8);
     box-shadow: 100px, 100px;
 }
+.explanation{
+    margin:30px;
+    font-size: larger;
+}
 .project{
     display:inline-block;
     align-items: center;
@@ -72,10 +76,11 @@ button:hover{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:20%;
+    width:60%;
     text-align: center;
     margin-top:50px;
     padding:50px;
+    color:#2b2b2b;
 }
 .resume-download{
     display:block;
@@ -95,6 +100,8 @@ button:hover{
     width:300px;
     margin:50px;
     display:inline-block;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 .profile-picture-alt{
     width:300px;
@@ -111,6 +118,49 @@ button:hover{
     text-align: center;
     background: local;
     width:700px;
+}
+.skill{
+    display:flex;
+    color: rgb(73, 73, 73);
+    font-size: x-large;
+    justify-content: center;
+    margin:20px;
+}
+.skills
+{
+    margin:30px;
+    padding: 10px;
+    color:rgb(73, 73, 73);
+    text-decoration: none;
+}
+.skills-body{
+    display:flex;
+    margin-left:7rem;
+    margin-right:7rem;
+    justify-content: space-between;
+}
+.skills-body p{
+    font-size: x-large;
+}
+.education{
+    display: flex;
+    margin:20px;
+    margin-left:7rem;
+    margin-right:7rem;
+    margin-bottom:80px;
+    color:grey;
+    font-size: x-large;
+    text-align: center;
+}
+.rewards{
+    display: flex;
+    margin:20px;
+    margin-left:7rem;
+    margin-right:7rem;
+    margin-bottom:80px;
+    color:grey;
+    font-size: x-large;
+    text-align: center;
 }
 .linkedin, .outlook,.resume-description{
     color:#a9a9a9;
@@ -178,6 +228,16 @@ footer {
 @media screen and (max-width: 800px) {
     .profile-picture{
         display:none;
+    }
+    .project-row{
+        display:block;
+        justify-content: center;
+        align-items: center;
+    }
+    .project{
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     .aboutme{
         font-size:x-large;
