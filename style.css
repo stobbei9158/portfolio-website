@@ -231,7 +231,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     text-align: center;
  }
 @media screen and (max-width: 1200px) {
@@ -274,9 +274,6 @@ footer {
     }
     textarea{
         height:225px;
-    }
-    footer{
-        text-align: center;
     }
 }
 @media screen and (min-width:900px){
